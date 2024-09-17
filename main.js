@@ -1,4 +1,4 @@
-import { kep } from "./adat.js";
+import { kep } from "./modell/adat.js";
 import Jatekter from "./view/Jatekter.js";
 import Kartya from "./view/Kartya.js";
 
