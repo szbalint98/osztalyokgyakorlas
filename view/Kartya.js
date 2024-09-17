@@ -5,9 +5,9 @@ constructor(kep,szulElem){
     this.#kep=kep;
     this.szulElem=szulElem
     console.log(szulElem)
-    this.#kiir();
     this.gombElem=$(".kivalaszt:last");
     console.log(this.#kep)
+    this.#kiir();
     this.#esemenykezelo();
     
 }

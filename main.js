@@ -1,6 +1,6 @@
 import { kep } from "./adat.js";
-import Jatekter from "./Jatekter.js";
-import Kartya from "./Kartya.js";
+import Jatekter from "./view/Jatekter.js";
+import Kartya from "./view/Kartya.js";
 
  const kivLista=[];
 
@@ -13,6 +13,5 @@ $(window).on("kivalaszt",(event)=>{
     console.log(event.detail)
     kivLista.push(event.detail)
     console.log(kivLista)
-    kiskepElem.empty();
     new Kartya(kivLista,kivkepElem)
   })
