@@ -1,4 +1,5 @@
 import { kep } from "./modell/adat.js";
+import Modell from "./modell/modell.js";
 import Jatekter from "./view/Jatekter.js";
 import Kartya from "./view/Kartya.js";
 
@@ -6,7 +7,7 @@ import Kartya from "./view/Kartya.js";
 
 let kiskepElem=$(".kiskep");
 let kivkepElem=$(".kivalasztott");
-
+const modell = new Modell(LISTA)
 new Jatekter(kep,kiskepElem);
 
 $(window).on("kivalaszt",(event)=>{
